@@ -1,12 +1,10 @@
-//
-//  EKNotifView.h
-//  uknotificationview
+//  EKNotifView.m
 //
 //  Created by Ethan Kramer on 1/3/13.
 //  Copyright (c) 2013 Ethan Kramer. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
 
 #define EKNotifViewAutoResizeNotification @"EKNotifViewAutoResizeNotification"
 
