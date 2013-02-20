@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   
   s.author       = { "Ethan Kramer" => "ekdevdes@gmail.com" }
   
-  s.source       = { :git => "https://github.com/ekdevdes/EKNotifView.git", :commit => "837b045c3098124c0c7b9b02b67f30010839816f" }
+  s.source       = { :git => "https://github.com/ekdevdes/EKNotifView.git", :commit => "f024f6afc9665be321178065ff201b3906b9c2ec" }
 
   s.platform     = :ios, '4.0'
   s.source_files = '*.{h,m}'
