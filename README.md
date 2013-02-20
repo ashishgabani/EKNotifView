@@ -79,7 +79,6 @@ By default allows tap to dismiss
 </td>
 		</tr>
 		
-	</tbody>
 </table>
 
 ##View Positions (for use in the init method)
