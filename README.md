@@ -24,7 +24,7 @@ To create an **EKNotifiView** you need to create the notification, give it a vie
 
 **TL;DR of the above** if you wait a bit for v0.0.2 then it'll be simpler to use *EKNotifView*
 
-**Note: ** the line #2 is necessary because by default both the notification title 
+**Note:**  the line #2 is necessary because by default both the notification title 
 
 ##View Types (for use in the init method an customization methods)
 
@@ -179,17 +179,19 @@ And to change the text of the title and subtitle to the same thing here's how it
 ###Change notification background color
 You customize the background of notification of a certain view type by calling 
 
-```[note changeBackgroundColorToColor:someColor forViewType:aViewType];
+```
+[note changeBackgroundColorToColor:someColor forViewType:aViewType];
 ```            
 
-**Note: ** to use an image for the background color use the `+imageWithPatternImage:` method of `UIColor`
+**Note:** to use an image for the background color use the `+imageWithPatternImage:` method of `UIColor`
           
 ###Change font of title and subtitle of notificaiton
 
-``` [note changeFontOfLabel:aLabelType to:aUIFontObject];
+``` 
+[note changeFontOfLabel:aLabelType to:aUIFontObject];
 ```                                                    
 
-**Lastly, **
+**Lastly,**
 
 **Ok  I know that's alot, I'm woking on v0.0.2 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
 
