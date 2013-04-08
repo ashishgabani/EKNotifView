@@ -1,4 +1,4 @@
-EKNotifView v.0.0.1
+EKNotifView v0.0.2
 ===================
 
 A Simple, easily customizable, lightweight notification system for iOS Apps
@@ -8,7 +8,7 @@ A Simple, easily customizable, lightweight notification system for iOS Apps
 Since **EKNotifView** is available a [Pod](http://cocoapods.org/?q=eknotifview) you can add it to your project simply by adding the following line to the bottom of your `Podfile`
 
  ```ruby
- pod 'EKNotifView', '~> 0.0.1'
+ pod 'EKNotifView', '~> 0.0.2'
  ```
  
 ##Usage
@@ -20,9 +20,9 @@ To create an **EKNotifiView** you need to create the notification, give it a vie
     2. [note changeTitleOfLabel:aLabelType to:theTitleString];
     3. [note show];
 ```
-**Ok  I know that's alot, I'm woking on v0.0.2 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
+**Ok  I know that's alot, I'm woking on v0.0.3 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
 
-**TL;DR of the above** if you wait a bit for v0.0.2 then it'll be simpler to use *EKNotifView*
+**TL;DR of the above** if you wait a bit for v0.0.3 then it'll be simpler to use *EKNotifView*
 
 **Note:**  the line #2 is necessary because by default both the notification title 
 
@@ -192,9 +192,9 @@ You customize the background of notification of a certain view type by calling
 
 **Lastly,**
 
-**Ok  I know that's alot, I'm woking on v0.0.2 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
+**Ok  I know that's alot, I'm woking on v0.0.3 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
 
-**TL;DR of the above** if you wait a bit for v0.0.2 then it'll be simpler to use *EKNotifView*
+**TL;DR of the above** if you wait a bit for v0.0.3 then it'll be simpler to use *EKNotifView*
 
 #Dat's all folks!
 
