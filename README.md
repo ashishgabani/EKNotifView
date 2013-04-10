@@ -44,7 +44,7 @@ By default a black with small,white activity indicator on the left and the title
     <br><br>
 By default doesn't allow tap to dismiss
         <br><br>
-            can only show by calling <code>[note hide];</code>
+            can only hide by calling <code>[note hide];</code>
 </td>
 		</tr>
          <tr>
