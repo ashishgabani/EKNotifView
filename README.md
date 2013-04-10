@@ -8,7 +8,7 @@ A Simple, easily customizable, lightweight notification system for iOS Apps
 Since **EKNotifView** is available a [Pod](http://cocoapods.org/?q=eknotifview) you can add it to your project simply by adding the following line to the bottom of your `Podfile`
 
 
-<small>There was an issue with updating CocoaPods to version 0.0.2. That's why its not available as a pod yet</small>
+<small>There was an issue with updating CocoaPods to version 0.0.2. That's why its not available as a pod yet. I'll fix that later.</small>
 
  ```ruby
  pod 'EKNotifView', '~> 0.0.1'
