@@ -40,7 +40,7 @@
         
         self.parentView = containingView;
         self.notifHeight = 50.0f;
-        self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         self.viewPosition = notifViewPosition;
         
         if (self.viewPosition == EKNotifViewPositionTop) {
@@ -223,14 +223,15 @@
 }
 
 -(void)setupView{
-    
+    /*
+     FIXME: Might have been fixed in iOS 7
     if (self.viewPosition == EKNotifViewPositionTop) {
         self.view.frame = CGRectMake(0,(0-self.notifHeight), self.parentView.bounds.size.width, self.notifHeight);
     }else if(self.viewPosition == EKNotifViewPositionBottom){
         self.view.frame = CGRectMake(0, (self.parentView.bounds.size.height + 1), self.parentView.bounds.size.width, self.notifHeight);
         
     }
-    
+    */
 }
 
 -(void)changeBackgroundColorToColor:(UIColor *)color forViewType:(EKNotifViewType)noteViewType{
