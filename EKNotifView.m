@@ -40,7 +40,7 @@
         
         self.parentView = containingView;
         self.notifHeight = 50.0f;
-        self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         self.viewPosition = notifViewPosition;
         
         if (self.viewPosition == EKNotifViewPositionTop) {
@@ -124,6 +124,7 @@
         }
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setupView) name:EKNotifViewAutoResizeNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setupView) name:UIDeviceOrientationDidChangeNotification  object:nil];
         
         
     }
