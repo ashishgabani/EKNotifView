@@ -18,10 +18,10 @@ Since **EKNotifView** is available a [Pod](http://cocoapods.org/?q=eknotifview) 
 
 To create an **EKNotifiView** you need to create the notification, give it a view to appear in, a direction to slide in from (up or down), a text style (title or subtitle) a view type (loading,success,failure or info), a title, and tell it to show, here's what the code would look like
 
-```
-    1. EKNotifView *note = [[EKNotifView alloc] initWithNotifViewType:aType notifPosition:aPosition notifTextStyle:aTextStyle andParentView:aView];
-    2. [note changeTitleOfLabel:aLabelType to:theTitleString];
-    3. [note show];
+```objc
+    EKNotifView *note = [[EKNotifView alloc] initWithNotifViewType:aType notifPosition:aPosition notifTextStyle:aTextStyle andParentView:aView];
+    [note changeTitleOfLabel:aLabelType to:theTitleString];
+    [note show];
 ```
 **Ok  I know that's alot, I'm woking on v0.0.3 which will feature a much shorter init method and more semantic setter methods. I hope to release it soon but I don't want to give any time frames yet (It shouldn't be long though)**
 
